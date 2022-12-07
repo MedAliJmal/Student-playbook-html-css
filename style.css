@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300&family=Roboto:ital,wght@0,500;0,700;1,400&family=The+Nautigal&family=Work+Sans:wght@100&display=swap');
+
+
+*{
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+section {
+    margin-top: 50px;
+    width: 100%;
+}
+
+body {
+    background-image: url("./background\ image.png");
+    width: 100%;
+    background-size: 150%;
+}
+
+a {width: 100%;
+height: 100%;
+text-decoration: none;
+color: black;
+text-align: center;
+padding-top: 55px;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    background-color: rgb(213, 213, 213);
+    box-shadow: 0px 2px 0px 0px  rgba(0, 0, 0, 0.368);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    width: 700px;
+    height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    width: 150px;
+    color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item:hover a {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.menu-item:hover {
+    border-left: 2px red solid;
+    border-right: 2px red solid;
+    background-color: rgba(0, 0, 0, 0.902);
+}
+
+#about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#About-Us {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#About-Us img {
+    height: 450px;
+    width: auto;
+}
+
+#text-container1 {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+#text-container1 h3 {
+    width: 100%;
+}
+
+.titre {
+    width: 100%;
+    color: red;
+    font-style: oblique;
+}
+
+#gmcvs {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-self: center;
+}
+
+hr {
+    color: black;
+    width: 100%;
+    border: solid black 1px;
+}
+
+#statistics {
+    display: flex;
+    flex-direction: column;
+}
+
+#statistics h1 {
+    padding: 0px 250px;
+}
+
+#text-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.statcont {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 60px;
+}
+
+#stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.statcont h3 {
+    width: 100%;
+    font-size: 60px;
+    color: rgb(49, 0, 154)
+}
+
+.statcont p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: -100px;
+    padding: 10px;
+}
+
+#urgood {
+    margin: 10px 50px;
+}
+
+
+#specialities {
+    display: flex;
+    flex-direction: column;
+}
+
+#specialities h1 {
+    padding: 0px 250px;
+}
+
+#text-container3 {
+    display: flex;
+}
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 18px
+}
+
+.box h3 {
+    font-style: italic;
+    margin: 20px;
+    color: rgb(0, 0, 179);
+}
+
+.div-cont {
+    margin: 50px 20px;
+}
+
+.box ul li {
+    padding: 5px;
+}
+
+#ros h1 {
+    padding: 0px 250px;
+}
+
+#ros p {
+    margin: 20px;
+    padding: 0px 250px;
+    font-size: 20px;
+    color: rgb(0, 0, 162);
+    text-decoration: underline;
+}
+
+#ros {
+    display: flex;
+    flex-direction: column;
+}
+
+#text-container4 {
+    display: flex;
+    padding: 20px 100px;
+}
+
+#text-container4 dl {
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.301);
+}
+
+#text-container4 dl dt {
+    margin: 5px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: rgb(0, 0, 155);
+}
+
+#text-container4 dl dd {
+    font-size: 15px;
+    font-style: oblique;
+    margin : 15px 0px
+}
+
+#contact h1 {
+    padding: 0px 250px;
+    margin-top: -20px;
+}
+
+#text-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 50px 0px;
+}
+button {
+    color: red;
+    background-color: white;
+    border: 2px black solid;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px black;
+    color: red;
+    border-radius: 15px;
+    margin: 5px 15px;
+}
+
+#prov {
+    margin: 0px 15px;
+}
